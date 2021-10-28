@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+try {
+  throw new Exception("An error occurred");
+} catch(Exception $e) {
+  echo $e->getMessage();
+}
+?>
+
+</body>
+</html>
+
+
+
+An error occurred

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+try {
+  throw new Exception("An error occurred");
+} catch(Exception $e) {
+  echo $e->getLine();
+}
+?>
+
+</body>
+</html>
+
+
+
+
+
+
+7
